@@ -1,0 +1,12 @@
+<Connector 
+    port="8443" 
+    protocol="org.apache.catalina.net.DefaultSSLProtocolSocketFactory"
+    maxThreads="150" 
+    SSLEnabled="true" 
+    scheme="https" 
+    secure="true" 
+    clientAuth="false" 
+    sslProtocol="TLS"
+    keystoreFile="classpath:server-keystore.jks"
+    keystorePass="SNHU2024" 
+    keyAlias="server" />
